@@ -115,8 +115,170 @@
     }
     .tu {
         width: 100%;
-        height: px2rem(200px);
+        height: px2rem(100px);
         margin-top: px2rem(10px);
         background: #fff;
+        display: flex;
+        .left1 {
+            width: 50%;
+            height: px2rem(100px);
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            .l1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                h3 {
+                    font-size: 14px;
+                    color: red;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                img {
+                    width: px2rem(75px);
+                    height: px2rem(65px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+            .r1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                img {
+                    width: px2rem(90px);
+                    height: px2rem(80px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+        }
+        .right1 {
+            width: 50%;
+            height: px2rem(100px);
+            border-bottom: 1px solid #eee;
+            display: flex;
+            .l1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                h3 {
+                    font-size: 14px;
+                    color: skyblue;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                img {
+                    width: px2rem(75px);
+                    height: px2rem(65px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+            .r1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                img {
+                    width: px2rem(90px);
+                    height: px2rem(80px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+        }
+    }
+    .tu2 {
+        width: 100%;
+        height: px2rem(100px);
+        background: #fff;
+        display: flex;
+        .left2 {
+            width: 50%;
+            height: px2rem(100px);
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            background: #fff;
+            .l1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                h3 {
+                    font-size: 14px;
+                    color: pink;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                img {
+                    width: px2rem(75px);
+                    height: px2rem(65px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+            .r1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                img {
+                    width: px2rem(90px);
+                    height: px2rem(80px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+        }
+        .right2 {
+            width: 50%;
+            height: px2rem(100px);
+            border-bottom: 1px solid #eee;
+            display: flex;
+            .l1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                h3 {
+                    font-size: 14px;
+                    color: pink;
+                    text-align: center;
+                    padding-top: 5px;
+                }
+                img {
+                    width: px2rem(75px);
+                    height: px2rem(65px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+            .r1 {
+                width: 50%;
+                height: 100%;
+                position: relative;
+                img {
+                    width: px2rem(90px);
+                    height: px2rem(80px);
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+            }
+        }
     }
 }
