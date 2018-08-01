@@ -77,11 +77,26 @@
             <div class="tuzi">
                 <div class="tuzis">
                     <img src="img/one2.jpg" alt="">
-                    <div class="zi">
-                        <p>商圈头条 | 她当初劝怀孕的妹妹不要养狗,如今眼前的画面!</p>
-                        <span>19363人浏览</span>
+                    <div class="swiper-container zi">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <p><span>美搭</span>夏天容易死掉但颜值高的多肉，你还在买吗</p>
+                                <p><span>星座</span>在恋爱中容易犯傻的星座女有哪些</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p><span>动漫</span>六种复活奥特曼的方式，艾克斯最特殊</p>
+                                <p><span>动漫</span>奥特曼：6条经典语录，如今已是画中人！</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p><span>垂钓</span>底钓鲤鱼，我们如何进行精准调漂？</p>
+                                <p><span>垂钓</span>4个技巧，帮你成为钓鲤钓鲫高手！</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+            <div class="tu">
+
             </div>
         </section>
         <footer class="footer"></footer>
@@ -95,9 +110,17 @@
             },
             loop: true,
             pagination: {
-                el: '.page'
+                el: '.page',
+                clickable: true
             }
-        })
+        });
+        new Swiper('.zi', {
+            direction: 'vertical',
+            autoplay: {
+                delay: 1000
+            },
+            loop: true
+        });
     </script>
 </body>
 
