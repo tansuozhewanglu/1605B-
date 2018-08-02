@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     background: #eee;
+    overflow: hidden;
 }
 
 .header {
@@ -42,7 +43,8 @@
 
 .section {
     flex: 1;
-    height: 100%;
+    width: 100%;
+    overflow: auto;
     .banner {
         width: 100%;
         height: px2rem(150px);
@@ -279,6 +281,30 @@
                     transform: translate(-50%);
                 }
             }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: px2rem(50px);
+    background: #fff;
+    @include display(flex);
+    dl {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        dt {
+            width: 100%;
+            text-align: center;
+            i {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        dd {
+            text-align: center;
         }
     }
 }
